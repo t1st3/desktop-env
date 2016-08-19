@@ -1,0 +1,51 @@
+{
+  "name": "desktop-env",
+  "version": "0.1.0",
+  "description": "Detect which desktop environment is run in the current session",
+  "license": "MIT",
+  "repository": "t1st3/desktop-env",
+  "author": {
+    "name": "t1st3",
+    "email": "contact@tiste.org",
+    "url": "tiste.org"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "kde",
+    "gnome",
+    "mate",
+    "cinnamon",
+    "xfce",
+    "lxde",
+    "unity",
+    "sugar",
+    "desktop",
+    "environment",
+    "detect"
+  ],
+  "dependencies": {
+    "is-cinnamon": "^0.1.0",
+    "is-gnome": "^0.1.2",
+    "is-kde": "^0.1.2",
+    "is-lxde": "^0.1.0",
+    "is-mate": "^0.1.2",
+    "is-sugar": "^0.1.0",
+    "is-unity": "^0.1.0",
+    "is-xfce": "^0.1.1",
+    "pify": "^2.3.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "nyc": "^8.1.0",
+    "xo": "*"
+  }
+}
