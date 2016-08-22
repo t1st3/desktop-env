@@ -10,8 +10,6 @@ var isUnity = require('is-unity');
 var isXfce = require('is-xfce');
 var pify = require('pify');
 
-console.log(process.platform);
-
 module.exports = pify(function (cb) {
 	if (process.platform === 'linux' || process.platform === 'freebsd') {
 		var de = 'N/A';
