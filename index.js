@@ -18,7 +18,6 @@ module.exports = pify(function (cb) {
 		var desktopChecks = [isCinnamon(), isGnome(), isKde(), isLxde(), isMate(), isSugar(), isUnity(), isXfce()];
 
 		Promise.all(desktopChecks).then(function (values) {
-			console.log(values);
 			var desktopNames = ['Cinnamon', 'Gnome', 'KDE', 'LXDE', 'Mate', 'Sugar', 'Unity', 'XFCE'];
 			values.map(function (v, k) {
 				if (v === true) {
