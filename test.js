@@ -1,8 +1,6 @@
 import test from 'ava';
 import desktopEnv from './';
 
-test('desktop-env', t => {
-	return desktopEnv().then(data => {
-		t.is(data, 'N/A');
-	});
+test('desktop-env', async t => {
+	t.is(await desktopEnv(), 'N/A');
 });
