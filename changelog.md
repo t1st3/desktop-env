@@ -1,6 +1,10 @@
 ## Change Log
 
+### 2.0.0 (2017/04/11 15:50 +00:00)
+- [234bd04](https://github.com/t1st3/desktop-env/commit/234bd044fe038e2565d93d42226dada49f7b7605) feat: (breaking) es2015ify (@t1st3)
+
 ### 1.0.0 (2016/10/13 17:52 +00:00)
+- [85fd09b](https://github.com/t1st3/desktop-env/commit/85fd09b15ba5b8e29fb83f8fcecf73469a38b111) chore: v1.0.0 (@t1st3)
 - [113a012](https://github.com/t1st3/desktop-env/commit/113a0121209f1136dff3269240165471601ca847) test: use async/await rather than a Promise (@t1st3)
 - [87fd359](https://github.com/t1st3/desktop-env/commit/87fd3598023ff83cf2e7ec1423f8045a88e10b46) chore: bump deps (@t1st3)
 - [cc9f355](https://github.com/t1st3/desktop-env/commit/cc9f355137a20a3c570ff79783d5123179785652) chore: drop support for Node.js 0.12 (@t1st3)
