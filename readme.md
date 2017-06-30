@@ -1,5 +1,7 @@
 # desktop-env [![Build Status Travis](https://travis-ci.org/t1st3/desktop-env.svg?branch=master)](https://travis-ci.org/t1st3/desktop-env)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/t1st3/desktop-env.svg)](https://greenkeeper.io/)
+
 > Detect which [desktop environment](https://en.wikipedia.org/wiki/Desktop_environment) is run in the current session 
 
 
