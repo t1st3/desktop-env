@@ -6,8 +6,8 @@
   "repository": "t1st3/desktop-env",
   "author": {
     "name": "t1st3",
-    "email": "contact@tiste.org",
-    "url": "tiste.org"
+    "email": "contact@t1st3.com",
+    "url": "t1st3.com"
   },
   "main": "index.js",
   "engines": {
@@ -44,8 +44,8 @@
     "pify": "^3.0.0"
   },
   "devDependencies": {
-    "ava": "0.22.0",
-    "nyc": "^11.0.0",
-    "xo": "^0.18.1"
+    "ava": "^0.22.0",
+    "nyc": "^11.2.1",
+    "xo": "^0.18.2"
   }
 }

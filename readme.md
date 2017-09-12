@@ -17,7 +17,7 @@ const desktopEnv = require('desktop-env');
 
 desktopEnv().then(data => {
   console.log(data);
-  //=> Cinnamon, Gnome, KDE, LXDE, Mate, Sugar, Unity, XFCE
+  //=> Cinnamon, Gnome, KDE, LXDE, Mate, Sugar, Unity, XFCE, N/A
 });
 ```
 
@@ -27,7 +27,17 @@ desktopEnv().then(data => {
 ### desktopEnv()
 
 
-Is a promise.
+Returns a `Promise` that resolves one of the following:
+
+* `Cinnamon`
+* `Gnome`
+* `KDE`
+* `LXDE`
+* `Mate`
+* `Sugar`
+* `Unity`
+* `XFCE`
+* `N/A` if none of the above
 
 
 ## Related
@@ -44,4 +54,4 @@ Is a promise.
 
 ## License
 
-MIT © [t1st3](http://tiste.org)
+MIT © [t1st3](https://t1st3.com)
