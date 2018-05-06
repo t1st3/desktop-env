@@ -33,19 +33,19 @@
     "detect"
   ],
   "dependencies": {
-    "is-cinnamon": "^1.0.1",
-    "is-gnome": "^1.0.1",
-    "is-kde": "^1.0.1",
-    "is-lxde": "^1.0.1",
-    "is-mate": "^1.0.1",
-    "is-sugar": "^1.0.1",
-    "is-unity": "^1.0.1",
-    "is-xfce": "^1.0.1",
+    "is-cinnamon": "^2.0.0",
+    "is-gnome": "^2.0.0",
+    "is-kde": "^2.0.0",
+    "is-lxde": "^2.0.0",
+    "is-mate": "^2.0.0",
+    "is-sugar": "^2.0.0",
+    "is-unity": "^2.0.0",
+    "is-xfce": "^2.0.0",
     "pify": "^3.0.0"
   },
   "devDependencies": {
     "ava": "^0.25.0",
-    "nyc": "^11.2.1",
-    "xo": "^0.20.1"
+    "nyc": "^11.7.1",
+    "xo": "^0.21.0"
   }
 }
