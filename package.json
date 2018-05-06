@@ -36,7 +36,7 @@
     "is-cinnamon": "^1.0.1",
     "is-gnome": "^1.0.1",
     "is-kde": "^1.0.1",
-    "is-lxde": "^1.0.1",
+    "is-lxde": "^2.0.0",
     "is-mate": "^1.0.1",
     "is-sugar": "^1.0.1",
     "is-unity": "^1.0.1",
