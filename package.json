@@ -1,6 +1,6 @@
 {
   "name": "desktop-env",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Detect which desktop environment is run in the current session",
   "license": "MIT",
   "repository": "t1st3/desktop-env",
