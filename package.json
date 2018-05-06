@@ -40,7 +40,7 @@
     "is-mate": "^1.0.1",
     "is-sugar": "^1.0.1",
     "is-unity": "^1.0.1",
-    "is-xfce": "^1.0.1",
+    "is-xfce": "^2.0.0",
     "pify": "^3.0.0"
   },
   "devDependencies": {
