@@ -41,7 +41,7 @@
     "is-sugar": "^2.0.0",
     "is-unity": "^2.0.0",
     "is-xfce": "^2.0.0",
-    "pify": "^3.0.0"
+    "pify": "^4.0.0"
   },
   "devDependencies": {
     "ava": "^0.25.0",
