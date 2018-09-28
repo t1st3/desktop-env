@@ -24,8 +24,8 @@ module.exports = pify(cb => {
 				return de;
 			});
 			cb(null, de);
-		}).catch(err => {
-			cb(err, null);
+		}).catch(error => {
+			cb(error, null);
 		});
 	}
 
