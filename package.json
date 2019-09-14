@@ -34,7 +34,7 @@
   ],
   "dependencies": {
     "is-cinnamon": "^2.0.0",
-    "is-gnome": "^2.0.0",
+    "is-gnome": "^4.0.0",
     "is-kde": "^2.0.0",
     "is-lxde": "^2.0.0",
     "is-mate": "^2.0.0",
